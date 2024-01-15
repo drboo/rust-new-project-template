@@ -1,4 +1,4 @@
-pub mod lib;
+mod lib;
 
 fn main() {
     println!("Calling add = {}", lib::add(20, 30));
